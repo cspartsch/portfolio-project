@@ -3,6 +3,7 @@
   --secondary-color: #1e81b0;
   --second-font-family: "Poppins", sans-serif;
   --main-font-family: "Raleway", sans-serif;
+  --primary-button-color: #4c1f66;
 }
 
 h1 {
@@ -27,4 +28,12 @@ h3 {
   background: #d8d0dc;
   padding: 80px;
   font-family: var(--second-font-family);
+}
+
+.btn-branding {
+  background: var(--primary-button-color);
+  border-radius: 6px;
+  color: white;
+  font-size: 18px;
+  padding: 15px 30px;
 }
