@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #5f178f;
-  --secondary-color: #1e81b0;
+  --primary-color: #4c1f66;
+  --secondary-color: #3f3640;
   --second-font-family: "Poppins", sans-serif;
   --main-font-family: "Raleway", sans-serif;
-  --primary-button-color: #4c1f66;
+  --primary-button-color: #5f178f;
 }
 
 h1 {
@@ -11,14 +11,16 @@ h1 {
   font-family: var(--main-font-family);
   font-size: 72px;
   font-weight: 700;
+  text-align: ;
 }
 h2 {
   color: var(--secondary-color);
   font-family: var(--second-font-family);
-  font-size: 30px;
+  font-size: 40px;
+  margin-bottom: -3px;
 }
 h3 {
-  font-size: 22px;
+  font-size: 18px;
   color: #3d3b3d;
   margin-bottom: 40px;
 }
@@ -26,7 +28,7 @@ h3 {
 .hero {
   text-align: center;
   background: #d8d0dc;
-  padding: 80px;
+  padding: 30px;
   font-family: var(--second-font-family);
 }
 
@@ -37,3 +39,4 @@ h3 {
   font-size: 18px;
   padding: 15px 30px;
 }
+//5f178f
