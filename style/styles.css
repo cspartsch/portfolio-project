@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #4c1f66;
-  --secondary-color: #3f3640;
+  --primary-color: #62635f;
+  --secondary-color: #353b3b;
   --second-font-family: "Poppins", sans-serif;
   --main-font-family: "Raleway", sans-serif;
-  --primary-button-color: #5f178f;
+  --primary-button-color: #4f7173;
 }
 
 h1 {
@@ -21,7 +21,7 @@ h2 {
 }
 h3 {
   font-size: 18px;
-  color: #3d3b3d;
+  color: var(--secondary-color);
   margin-bottom: 40px;
 }
 
@@ -31,7 +31,11 @@ p {
 }
 .hero {
   text-align: center;
-  background: #d8d0dc;
+  background: radial-gradient(
+    circle at 0% 0.5%,
+    rgb(241, 241, 242) 0.1%,
+    rgb(224, 226, 228) 100.2%
+  );
   padding: 60px 60px 120px;
   font-family: var(--second-font-family);
   margin-bottom: 50px;
