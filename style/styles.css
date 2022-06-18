@@ -61,6 +61,16 @@ p {
   line-height: 30px;
   padding: 100px 60px;
 }
+
+.social-links {
+  font-size: 28px;
+  color: var(--secondary-color);
+  padding: 5px;
+}
+
+.content-footer {
+  background-color:#E4E5E7;
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 60px;
