@@ -3,7 +3,7 @@
   --secondary-color: #353b3b;
   --second-font-family: "Poppins", sans-serif;
   --main-font-family: "Raleway", sans-serif;
-  --primary-button-color: #4f7173;
+  --primary-button-color: #2b4700;
 }
 
 h1 {
@@ -69,7 +69,11 @@ p {
 }
 
 .content-footer {
-  background-color:#E4E5E7;
+  background-color: #e4e5e7;
+}
+.signature {
+    font-family:'Liu Jian Mao Cao', cursive;
+    font-size: 24px;
 }
 @media (max-width: 960px) {
   h1 {
