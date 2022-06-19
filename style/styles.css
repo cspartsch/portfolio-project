@@ -25,6 +25,14 @@ h3 {
   margin-bottom: 40px;
 }
 
+.about-intro,
+.about-description {
+  text-align: center;
+}
+
+.about-paragraph {
+  padding: 0 30px;
+}
 p {
   font-family: var(--second-font-family);
   font-size: 18px;
@@ -41,6 +49,10 @@ p {
   margin-bottom: 50px;
 }
 
+.navigation-static {
+  position: sticky;
+  top: 0;
+}
 .btn-branding {
   background: var(--primary-button-color);
   border-radius: 6px;
@@ -84,7 +96,7 @@ p {
 .social-links {
   font-size: 28px;
   color: var(--primary-color);
-  padding: 5px;
+  padding: 7px;
 }
 
 .social-links:hover {
