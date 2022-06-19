@@ -47,6 +47,7 @@ p {
   color: white;
   font-size: 18px;
   padding: 15px 30px;
+  transition: all 100ms ease-in-out;
 }
 
 .btn-branding-outline {
@@ -55,6 +56,7 @@ p {
   font-size: 18px;
   padding: 15px 30px;
   border: 1px solid var(--primary-button-color);
+  transition: all 100ms ease-in-out;
 }
 
 .project-description {
@@ -64,10 +66,14 @@ p {
 
 .social-links {
   font-size: 28px;
-  color: var(--secondary-color);
+  color: var(--primary-color);
   padding: 5px;
 }
 
+.social-links:hover {
+  color: var(--primary-button-color);
+  font-size:32px;
+}
 .content-footer {
   background-color: #e4e5e7;
 }
