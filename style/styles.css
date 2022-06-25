@@ -121,10 +121,7 @@ p {
 .content-footer {
   background-color: #e4e5e7;
 }
-.signature {
-  font-family: "Shadows Into Light Two", cursive;
-  font-size: 24px;
-}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 60px;
