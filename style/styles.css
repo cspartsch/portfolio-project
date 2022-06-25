@@ -3,7 +3,7 @@
   --secondary-color: #353b3b;
   --second-font-family: "Poppins", sans-serif;
   --main-font-family: "Raleway", sans-serif;
-  --primary-button-color: #2b4700;
+  --primary-button-color: #0a5221;
 }
 
 h1 {
@@ -34,6 +34,11 @@ p {
 .about-description,
 .connect-info {
   text-align: center;
+}
+
+.front-page-titles{
+    text-align: center;
+    display: block;
 }
 .project-titles {
   text-align: center;
@@ -118,10 +123,21 @@ p {
   font-size: 30px;
   transition: all 100ms ease-in-out;
 }
-.content-footer {
+
+footer .content-footer {
   background-color: #e4e5e7;
 }
+footer .contact-box{
+    background-color:#e7efe9;
+    border-radius: 6px;
+    padding:30px;
+    margin-top: 30px;
+    margin:65px;
 
+}
+footer p{
+    margin:0
+}
 .active {
   color: var(--primary-button-color) !important;
 }
