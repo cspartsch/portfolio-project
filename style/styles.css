@@ -17,7 +17,6 @@ h2 {
   color: var(--secondary-color);
   font-family: var(--second-font-family);
   font-size: 40px;
-  margin-bottom: -3px;
 }
 h3 {
   font-size: 18px;
@@ -28,17 +27,22 @@ h3 {
 p {
   font-family: var(--second-font-family);
   font-size: 18px;
+  margin-bottom: 20px;
 }
 
-.about-intro,
+.paragraph,
+.page-intro,
 .about-description {
   text-align: center;
 }
-
-.about-paragraph {
-  padding: 0 30px;
+.project-titles {
+  text-align: center;
+  margin-top: 15px;
 }
-
+.project-pics {
+  max-width: 500px;
+  padding:10px;
+}
 .about-headshot-pic {
   border-radius: 10px;
   max-width: 400px;
@@ -135,7 +139,7 @@ p {
   .hero {
     padding: 30px 30px 60px;
   }
-  .about-paragraph {
+  .paragraph {
     text-align: center;
     font-size: 16px;
   }
@@ -147,5 +151,26 @@ p {
   }
   .about-btn {
     margin-bottom: 20px;
+  }
+
+  .project-pics {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  .project-pics {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .project-pics {
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
   }
 }
