@@ -122,6 +122,12 @@ p {
   background-color: #e4e5e7;
 }
 
+.active {
+  color: var(--primary-button-color) !important;
+}
+.nav-link:hover {
+  color: var(--primary-button-color) !important;
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 60px;
