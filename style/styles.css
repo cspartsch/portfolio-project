@@ -29,8 +29,6 @@ p {
   margin-bottom: 20px;
 }
 
-
-
 .paragraph,
 .page-intro,
 .about-description {
@@ -59,7 +57,9 @@ p {
 .project-pics {
   max-width: 450px;
   padding: 30px;
-}
+  display:block;
+  margin:0 auto;}
+
 .about-headshot-pic {
   border-radius: 10px;
   max-width: 400px;
@@ -151,7 +151,8 @@ p {
 
 footer .content-footer {
   background-color: #e4e5e7;
- 
+  position:static;
+  bottom:0;
 }
 footer .contact-box {
   background-color: #e7efe9;
@@ -171,8 +172,16 @@ footer p {
   color: var(--primary-button-color) !important;
 }
 
-.code-disclosure{
-    text-align: center;
+.code-disclosure {
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  margin-bottom: 3px;
+  color: var(--primary-color);
+}
+.code-disclosure a:hover {
+  color:var(--primary-button-color);
+  transition: all 100ms ease-in-out;
 }
 @media (max-width: 768px) {
   .project-pics {
