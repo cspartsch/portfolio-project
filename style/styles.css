@@ -29,6 +29,8 @@ p {
   margin-bottom: 20px;
 }
 
+
+
 .paragraph,
 .page-intro,
 .about-description {
@@ -44,10 +46,10 @@ p {
   text-decoration: none;
   line-height: 1.5;
   font-size: 16px;
-  color:var(--primary-color);
+  color: var(--primary-color);
 }
-.connect-info:hover{
-    color:var(--primary-button-color);
+.connect-info:hover {
+  color: var(--primary-button-color);
 }
 
 .project-titles {
@@ -86,13 +88,14 @@ p {
   font-family: var(--second-font-family);
   margin-bottom: 50px;
 }
+
 .navigation-static {
   position: sticky;
   top: 0;
 }
-.fa-tree{
-    color:var(--primary-button-color);
-    font-size: 16px;
+.fa-tree {
+  color: var(--primary-button-color);
+  font-size: 16px;
 }
 .btn-branding {
   background: var(--primary-button-color);
@@ -148,6 +151,7 @@ p {
 
 footer .content-footer {
   background-color: #e4e5e7;
+ 
 }
 footer .contact-box {
   background-color: #e7efe9;
@@ -159,6 +163,7 @@ footer .contact-box {
 footer p {
   margin: 0;
 }
+
 .active {
   color: var(--primary-button-color) !important;
 }
@@ -166,13 +171,16 @@ footer p {
   color: var(--primary-button-color) !important;
 }
 
+.code-disclosure{
+    text-align: center;
+}
 @media (max-width: 768px) {
   .project-pics {
     max-width: 150px;
     display: block;
     margin: 0 auto;
   }
-  .connect-info{
+  .connect-info {
     text-align: center;
   }
 }
@@ -211,7 +219,7 @@ footer p {
     margin: auto;
   }
 
-.btn-branding {
-    font-size:14px;
-}
+  .btn-branding {
+    font-size: 14px;
+  }
 }
