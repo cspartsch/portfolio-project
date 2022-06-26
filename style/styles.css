@@ -35,15 +35,21 @@ p {
   text-align: center;
 }
 
-.connect-info {
-  text-align: center;
-  text-decoration: none;
-  line-height: 1.5;
-}
 .front-page-titles {
   text-align: center;
   display: block;
 }
+.connect-info {
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.5;
+  font-size: 16px;
+  color:var(--primary-color);
+}
+.connect-info:hover{
+    color:var(--primary-button-color);
+}
+
 .project-titles {
   text-align: center;
   margin-top: 15px;
@@ -84,7 +90,10 @@ p {
   position: sticky;
   top: 0;
 }
-
+.fa-tree{
+    color:var(--primary-button-color);
+    font-size: 16px;
+}
 .btn-branding {
   background: var(--primary-button-color);
   border-radius: 6px;
@@ -156,6 +165,18 @@ footer p {
 .nav-link:hover {
   color: var(--primary-button-color) !important;
 }
+
+@media (max-width: 768px) {
+  .project-pics {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+  }
+  .connect-info{
+    text-align: center;
+  }
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 60px;
@@ -189,22 +210,8 @@ footer p {
     display: block;
     margin: auto;
   }
-}
-@media (max-width: 768px) {
-  .project-pics {
-    max-width: 300px;
-    display: block;
-    margin: 0 auto;
-  }
-  .connect-info{
-    text-align: center;
-  }
-}
 
-@media (max-width: 1200px) {
-  .project-pics {
-    max-width: 400px;
-    display: block;
-    margin: 0 auto;
-  }
+.btn-branding {
+    font-size:14px;
+}
 }
