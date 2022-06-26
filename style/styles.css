@@ -31,14 +31,18 @@ p {
 
 .paragraph,
 .page-intro,
-.about-description,
-.connect-info {
+.about-description {
   text-align: center;
 }
 
-.front-page-titles{
-    text-align: center;
-    display: block;
+.connect-info {
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.5;
+}
+.front-page-titles {
+  text-align: center;
+  display: block;
 }
 .project-titles {
   text-align: center;
@@ -46,15 +50,24 @@ p {
 }
 .project-pics {
   max-width: 500px;
-  padding: 10px;
+  padding: 30px;
 }
 .about-headshot-pic {
   border-radius: 10px;
   max-width: 400px;
 }
+.contact-pic {
+  max-width: 150px;
+  border-radius: 6px;
+}
 .about-btn {
   display: block;
   margin: 0 auto;
+}
+.contact-links {
+  margin: 0px;
+  font-family: var(--second-font-family);
+  font-size: 18px;
 }
 .hero {
   text-align: center;
@@ -127,16 +140,15 @@ p {
 footer .content-footer {
   background-color: #e4e5e7;
 }
-footer .contact-box{
-    background-color:#e7efe9;
-    border-radius: 6px;
-    padding:30px;
-    margin-top: 30px;
-    margin:65px;
-
+footer .contact-box {
+  background-color: #e7efe9;
+  border-radius: 6px;
+  padding: 30px;
+  margin-top: 30px;
+  margin: 65px;
 }
-footer p{
-    margin:0
+footer p {
+  margin: 0;
 }
 .active {
   color: var(--primary-button-color) !important;
@@ -183,6 +195,9 @@ footer p{
     max-width: 300px;
     display: block;
     margin: 0 auto;
+  }
+  .connect-info{
+    text-align: center;
   }
 }
 
